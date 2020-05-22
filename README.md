@@ -1,1 +1,1 @@
-#### electron vue + typescript eslint config file
+#### electron vue + typescript configuration files

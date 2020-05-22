@@ -1,0 +1,36 @@
+productName: "productName"
+appId: "com.parasde.example"
+
+asar: true
+
+# Mac OS
+mac:
+  icon: "src/assets/icon/mac/icon.icns"
+# OSX dmg
+dmg:
+  contents:
+    - x: 130
+      y: 220
+    - x: 410
+      y: 220
+      type: "link"
+      path: "/Applications"
+
+# Windows
+win:
+  icon: "src/assets/icon/win/icon.ico"
+  target:
+    - "zip"
+    - "nsis"
+
+linux:
+  target:
+    - "AppImage"
+    - "deb"
+    - "rpm"
+
+
+# windows installer
+nsis:
+  oneClick: true
+  perMachine: true
